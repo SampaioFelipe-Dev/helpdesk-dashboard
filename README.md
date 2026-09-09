@@ -22,3 +22,5 @@ Se quiser clonar e testar o código por aí, siga os passos abaixo no seu termin
 1. Clone o repositório:
    ```bash
    git clone [https://github.com/SampaioFelipe-Dev/helpdesk-dashboard.git](https://github.com/SampaioFelipe-Dev/helpdesk-dashboard.git)
+
+cd helpdesk-dashboard
