@@ -17,8 +17,19 @@ Projeto de um painel de controle para suporte técnico e atendimento de chamados
 
 ## ⚙️ Como rodar o projeto na sua máquina:
 
-Se quiser clonar e testar o código por aí, siga os passos abaixo no seu terminal:
+Se quiser clonar e testar o código por aí, abra o seu terminal e digite:
 
-1. Clone o repositório:
-   ```bash
-   git clone [https://github.com/SampaioFelipe-Dev/helpdesk-dashboard.git](https://github.com/SampaioFelipe-Dev/helpdesk-dashboard.git)
+1. Clone o repositório: 
+git clone https://github.com/SampaioFelipe-Dev/helpdesk-dashboard.git
+
+2. Entre na pasta do projeto: 
+cd helpdesk-dashboard
+
+3. Instale as dependências: 
+npm install
+
+4. Rode o servidor de desenvolvimento: 
+npm run dev
+
+---
+*Projeto em constante evolução.*
