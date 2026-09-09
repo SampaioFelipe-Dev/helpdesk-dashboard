@@ -21,18 +21,4 @@ Se quiser clonar e testar o código por aí, siga os passos abaixo no seu termin
 
 1. Clone o repositório:
    ```bash
-git clone [https://github.com/SampaioFelipe-Dev/helpdesk-dashboard.git](https://github.com/SampaioFelipe-Dev/helpdesk-dashboard.git)
-
-Entre na pasta do projeto:
-Bash
-cd helpdesk-dashboard
-
-Instale as dependências:
-Bash
-npm install
-
-Rode o servidor de desenvolvimento:
-Bash
-npm run dev
-
-Projeto em constante evolução conforme novos recursos (como formulários de cadastro e categorias) vão sendo implementados.
+   git clone [https://github.com/SampaioFelipe-Dev/helpdesk-dashboard.git](https://github.com/SampaioFelipe-Dev/helpdesk-dashboard.git)
