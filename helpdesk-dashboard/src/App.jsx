@@ -4,11 +4,11 @@ import { useState } from 'react'
 import './App.css'
 
 function App() {
-
+const [perfil, setPerfil] = useState('user');
   return (
     <div className="dashboard-container">
-      <Sidebar />
-      <MainContent />
+      <Sidebar perfil={perfil} setPerfil={setPerfil} />
+      <MainContent perfil={perfil} />
     </div>
   )
 }
