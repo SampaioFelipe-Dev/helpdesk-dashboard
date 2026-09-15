@@ -1,0 +1,35 @@
+# Helpdesk Dashboard 💻
+
+Projeto de um painel de controle para suporte técnico e atendimento de chamados, desenvolvido para praticar e evoluir os estudos com React.
+
+## 🚀 O que já funciona no projeto:
+
+- **Listagem Dinâmica:** Os chamados são renderizados automaticamente na tela através de um array de dados utilizando `.map()`.
+- **Métricas em Tempo Real:** O sistema calcula sozinho a quantidade total de chamados, quantos estão abertos/em andamento e quantos já foram fechados.
+- **Filtros por Status:** Botões interativos que permitem alternar a visualização entre todos os chamados, abertos ou fechados, utilizando estados (`useState`) e mantendo a lista original intacta.
+- **Estrutura Modular:** Organizado em componentes separados (`Sidebar` e `MainContent`) com um layout corporativo construído usando CSS Flexbox.
+
+## 🛠️ Tecnologias utilizadas:
+
+- **React** (com Vite)
+- **JavaScript (ES6+)**
+- **CSS3**
+
+## ⚙️ Como rodar o projeto na sua máquina:
+
+Se quiser clonar e testar o código por aí, abra o seu terminal e digite:
+
+1. Clone o repositório: 
+git clone https://github.com/SampaioFelipe-Dev/helpdesk-dashboard.git
+
+2. Entre na pasta do projeto: 
+cd helpdesk-dashboard
+
+3. Instale as dependências: 
+npm install
+
+4. Rode o servidor de desenvolvimento: 
+npm run dev
+
+---
+*Projeto em constante evolução.*
