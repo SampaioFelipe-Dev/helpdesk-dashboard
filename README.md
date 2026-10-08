@@ -1,35 +1,16 @@
-# Helpdesk Dashboard 💻
+# React + Vite
 
-Projeto de um painel de controle para suporte técnico e atendimento de chamados, desenvolvido para praticar e evoluir os estudos com React.
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-## 🚀 O que já funciona no projeto:
+Currently, two official plugins are available:
 
-- **Listagem Dinâmica:** Os chamados são renderizados automaticamente na tela através de um array de dados utilizando `.map()`.
-- **Métricas em Tempo Real:** O sistema calcula sozinho a quantidade total de chamados, quantos estão abertos/em andamento e quantos já foram fechados.
-- **Filtros por Status:** Botões interativos que permitem alternar a visualização entre todos os chamados, abertos ou fechados, utilizando estados (`useState`) e mantendo a lista original intacta.
-- **Estrutura Modular:** Organizado em componentes separados (`Sidebar` e `MainContent`) com um layout corporativo construído usando CSS Flexbox.
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
 
-## 🛠️ Tecnologias utilizadas:
+## React Compiler
 
-- **React** (com Vite)
-- **JavaScript (ES6+)**
-- **CSS3**
+The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
 
-## ⚙️ Como rodar o projeto na sua máquina:
+## Expanding the ESLint configuration
 
-Se quiser clonar e testar o código por aí, abra o seu terminal e digite:
-
-1. Clone o repositório: 
-git clone https://github.com/SampaioFelipe-Dev/helpdesk-dashboard.git
-
-2. Entre na pasta do projeto: 
-cd helpdesk-dashboard
-
-3. Instale as dependências: 
-npm install
-
-4. Rode o servidor de desenvolvimento: 
-npm run dev
-
----
-*Projeto em constante evolução.*
+If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.

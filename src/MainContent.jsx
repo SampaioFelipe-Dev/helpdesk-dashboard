@@ -1,5 +1,6 @@
 import { useState } from 'react'
 function MainContent({ perfil }) {
+  console.log("O perfil do usuário logado é:", JSON.stringify(perfil));
     const [chamados, setChamados] = useState([{id: 1, titulo: 'Chamado 1', descricao: 'Descrição do chamado 1', status: 'aberto'},
     {id: 2, titulo: 'Chamado 2', descricao: 'Descrição do chamado 2', status: 'em andamento'},
     {id: 3, titulo: 'Chamado 3', descricao: 'Descrição do chamado 3', status: 'fechado'}]); 
